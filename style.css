@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap");
+@media only screen and (orientation: portrait) {
+  * {
+    margin: 0;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+  }
+  * body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s all ease-in;
+    gap: 1vh;
+    background-color: #080E2F;
+  }
+  * body .container .nav_menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 15vw;
+    position: sticky;
+    color: white;
+  }
+  * body .container #home_section_id .home_section_class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    height: 100vh;
+    margin: 0vh 0 0 0;
+    background-color: #080E2F;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content #courdevelops_logo {
+    width: 45vw;
+    height: 45vw;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .name {
+    font-size: 8vw;
+    color: white;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    margin: 5vh 0 0 0;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    font-family: "Inter", sans-serif;
+    color: #080E2F;
+    width: 70vw;
+    height: 2vw;
+    background-color: white;
+    border-radius: 5px;
+    margin: 1vh 0 0 0;
+    padding: 3vh 1vh 3vh 1vh;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .motto {
+    font-size: 5vw;
+    font-family: "Inter", sans-serif;
+    color: white;
+    text-align: center;
+    margin: 10vh 0 0 0;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .learn_more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 2vw;
+    background-color: #36395D;
+    border-radius: 5px;
+    padding: 3vh 1vh 3vh 1vh;
+    margin: 10vh 0 0vh 0;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .learn_more a {
+    font-size: 5vw;
+    font-family: "Inter", sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+  * body .container #about_section_id .about_section_class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    height: 100vh;
+    width: 100vw;
+    margin: 4vh 0 0 0;
+    background-color: #00313E;
+  }
+  * body .container #about_section_id .about_section_class .about_section_content {
+    color: white;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    height: 100vh;
+    margin: 4vh 0 0 0;
+    background-color: #080E2F;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content {
+    color: white;
+  }
+  * body .container #skills_section_id .skills_section_class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    height: 100vh;
+    width: 100vw;
+    margin: 4vh 0 0 0;
+    background-color: #00313E;
+  }
+  * body .container #skills_section_id .skills_section_class .skills_section_content {
+    color: white;
+  }
+  * body .container #experience_section_id .experience_section_class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    height: 100vh;
+    margin: 4vh 0 0 0;
+    background-color: #080E2F;
+  }
+  * body .container #experience_section_id .experience_section_class .experience_section_content {
+    color: white;
+  }
+  * body .container #blog_section_id .blog_section_class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    height: 100vh;
+    width: 100vw;
+    margin: 4vh 0 0 0;
+    background-color: #00313E;
+  }
+  * body .container #blog_section_id .blog_section_class .blog_section_content {
+    color: white;
+  }
+  * body .container #contact_section_id .contact_section_class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    height: 100vh;
+    margin: 4vh 0 0 0;
+    background-color: #080E2F;
+  }
+  * body .container #contact_section_id .contact_section_class .contact_section_content {
+    color: white;
+  }
+}
+@media only screen and (orientation: landscape) {
+  * {
+    margin: 0;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+  }
+  * body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s all ease-in;
+    gap: 1vh;
+    background-color: #080E2F;
+  }
+  * body .container .nav_menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 15vw;
+    position: sticky;
+    color: white;
+  }
+  * body .container #home_section_id .home_section_class {
+    height: 100vh;
+    background-color: #080E2F;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content #courdevelops_logo {
+    width: 25vw;
+    height: 25vw;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .name {
+    font-size: 5vw;
+    color: white;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    margin: 5vh 0 0 0;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    font-family: "Inter", sans-serif;
+    color: #080E2F;
+    width: 50vw;
+    height: 5vw;
+    background-color: white;
+    border-radius: 5px;
+    margin: 5vh 0 0 0;
+    padding: 3vh 1vh 3vh 1vh;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .motto {
+    font-size: 2vw;
+    font-family: "Inter", sans-serif;
+    color: white;
+    text-align: center;
+    margin: 12vh 0 0 0;
+  }
+  * body .container #about_section_id .about_section_class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    height: 100vh;
+    width: 100vw;
+    margin: 4vh 0 0 0;
+    background-color: #00313E;
+  }
+  * body .container #about_section_id .about_section_class .about_section_content {
+    color: white;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    height: 100vh;
+    margin: 4vh 0 0 0;
+    background-color: #080E2F;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content {
+    color: white;
+  }
+  * body .container #skills_section_id .skills_section_class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    height: 100vh;
+    width: 100vw;
+    margin: 4vh 0 0 0;
+    background-color: #00313E;
+  }
+  * body .container #skills_section_id .skills_section_class .skills_section_content {
+    color: white;
+  }
+  * body .container #experience_section_id .experience_section_class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    height: 100vh;
+    margin: 4vh 0 0 0;
+    background-color: #080E2F;
+  }
+  * body .container #experience_section_id .experience_section_class .experience_section_content {
+    color: white;
+  }
+  * body .container #blog_section_id .blog_section_class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    height: 100vh;
+    width: 100vw;
+    margin: 4vh 0 0 0;
+    background-color: #00313E;
+  }
+  * body .container #blog_section_id .blog_section_class .blog_section_content {
+    color: white;
+  }
+  * body .container #contact_section_id .contact_section_class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    height: 100vh;
+    margin: 4vh 0 0 0;
+    background-color: #080E2F;
+  }
+  * body .container #contact_section_id .contact_section_class .contact_section_content {
+    color: white;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,387 @@
+// Fonts
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap');
+
+// Colors
+
+// Dark Blue
+$darkblue: #080E2F;
+// Next Green
+$nextgreen: #00313E;
+// Portfolio backgrounds
+$portfolios: #36395D;
+// Resume Button Green
+$resumebutton: #507E81;
+// Skills Teal
+$skillsteal: #146166;
+
+// PORTRAIT MOBILE
+@media only screen and (orientation: portrait) {
+    * {
+        margin: 0;
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: .2s all ease-in;
+            gap: 1vh;
+            background-color: $darkblue;
+            .container {
+                // NAV MENU
+                .nav_menu {
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 15vw;
+                    position: sticky;
+                    color: white;
+                }
+                // HOME SECTION
+                #home_section_id {
+                    .home_section_class {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 1vh;
+                        height: 100vh;
+                        margin: 0vh 0 0 0;
+                        background-color: $darkblue;
+                        .home_section_content {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 1vh;
+                            #courdevelops_logo {
+                                width: 45vw;
+                                height: 45vw;
+                            }
+                            .name {
+                                font-size: 8vw;
+                                color: white;
+                                font-weight: bold;
+                                font-family: 'Inter', sans-serif;
+                                margin: 5vh 0 0 0;
+                            }
+                            .description {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                font-size: 5vw;
+                                font-family: 'Inter', sans-serif;
+                                color: $darkblue;
+                                width: 70vw;
+                                height: 2vw;
+                                background-color: white;
+                                border-radius: 5px;
+                                margin: 1vh 0 0 0;
+                                padding: 3vh 1vh 3vh 1vh;
+                            }
+                            .motto {
+                                font-size: 5vw;
+                                font-family: 'Inter', sans-serif;
+                                color: white;
+                                text-align: center;
+                                margin: 10vh 0 0 0;
+                            }
+                            .learn_more {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 60vw;
+                                height: 2vw;
+                                background-color: $portfolios;
+                                border-radius: 5px;
+                                padding: 3vh 1vh 3vh 1vh;
+                                margin: 10vh 0 0vh 0;
+                            a {
+                                font-size: 5vw;
+                                font-family: 'Inter', sans-serif;
+                                // font-weight: bold;
+                                color: white;
+                                text-decoration: none;
+                            }
+                        }
+                        }
+                    }
+                }
+                // ABOUT SECTION
+                #about_section_id {
+                    .about_section_class {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 1vh;
+                        height: 100vh;
+                        width: 100vw;
+                        margin: 4vh 0 0 0;
+                        background-color: $nextgreen;
+                        .about_section_content {
+                            color: white;
+                        }
+                    }
+                }
+                // PORTFOLIO SECTION
+                #portfolio_section_id {
+                    .portfolio_section_class {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 1vh;
+                        height: 100vh;
+                        margin: 4vh 0 0 0;
+                        background-color: $darkblue;
+                        .portfolio_section_content {
+                            color: white;
+                        }
+                    }
+                }
+                // SKILLS SECTION
+                #skills_section_id {
+                    .skills_section_class {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 1vh;
+                        height: 100vh;
+                        width: 100vw;
+                        margin: 4vh 0 0 0;
+                        background-color: $nextgreen;
+                        .skills_section_content {
+                            color: white;
+                        }
+                    }
+                }
+                // EXPERIENCE SECTION
+                #experience_section_id {
+                    .experience_section_class {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 1vh;
+                        height: 100vh;
+                        margin: 4vh 0 0 0;
+                        background-color: $darkblue;
+                        .experience_section_content {
+                            color: white;
+                        }
+                    }
+                }
+                // BLOG SECTION
+                #blog_section_id {
+                    .blog_section_class {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 1vh;
+                        height: 100vh;
+                        width: 100vw;
+                        margin: 4vh 0 0 0;
+                        background-color: $nextgreen;
+                        .blog_section_content {
+                            color: white;
+                        }
+                    }
+                }
+                // CONTACT SECTION
+                #contact_section_id {
+                    .contact_section_class {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 1vh;
+                        height: 100vh;
+                        margin: 4vh 0 0 0;
+                        background-color: $darkblue;
+                        .contact_section_content {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// LANDSCAPE MOBILE
+@media only screen and (orientation: landscape) {
+    * {
+        margin: 0;
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: .2s all ease-in;
+            gap: 1vh;
+            background-color: $darkblue;
+            .container {
+                // NAV MENU
+                .nav_menu {
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 15vw;
+                    position: sticky;
+                    color: white;
+                }
+                // HOME SECTION
+                #home_section_id {
+                    .home_section_class {
+                        height: 100vh;
+                        background-color: $darkblue;
+                        .home_section_content {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 1vh;
+                            #courdevelops_logo {
+                                width: 25vw;
+                                height: 25vw;
+                            }
+                            .name {
+                                font-size: 5vw;
+                                color: white;
+                                font-weight: bold;
+                                font-family: 'Inter', sans-serif;
+                                margin: 5vh 0 0 0;
+                            }
+                            .description {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                font-size: 2vw;
+                                font-family: 'Inter', sans-serif;
+                                color: $darkblue;
+                                width: 50vw;
+                                height: 5vw;
+                                background-color: white;
+                                border-radius: 5px;
+                                margin: 5vh 0 0 0;
+                                padding: 3vh 1vh 3vh 1vh;
+                            }
+                            .motto {
+                                font-size: 2vw;
+                                font-family: 'Inter', sans-serif;
+                                color: white;
+                                text-align: center;
+                                margin: 12vh 0 0 0;
+                            }
+                        }
+                    }
+                }
+                // ABOUT SECTION
+                #about_section_id {
+                    .about_section_class {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 1vh;
+                        height: 100vh;
+                        width: 100vw;
+                        margin: 4vh 0 0 0;
+                        background-color: $nextgreen;
+                        .about_section_content {
+                            color: white;
+                        }
+                    }
+                }
+                // PORTFOLIO SECTION
+                #portfolio_section_id {
+                    .portfolio_section_class {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 1vh;
+                        height: 100vh;
+                        margin: 4vh 0 0 0;
+                        background-color: $darkblue;
+                        .portfolio_section_content {
+                            color: white;
+                        }
+                    }
+                }
+                // SKILLS SECTION
+                #skills_section_id {
+                    .skills_section_class {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 1vh;
+                        height: 100vh;
+                        width: 100vw;
+                        margin: 4vh 0 0 0;
+                        background-color: $nextgreen;
+                        .skills_section_content {
+                            color: white;
+                        }
+                    }
+                }
+                // EXPERIENCE SECTION
+                #experience_section_id {
+                    .experience_section_class {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 1vh;
+                        height: 100vh;
+                        margin: 4vh 0 0 0;
+                        background-color: $darkblue;
+                        .experience_section_content {
+                            color: white;
+                        }
+                    }
+                }
+                // BLOG SECTION
+                #blog_section_id {
+                    .blog_section_class {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 1vh;
+                        height: 100vh;
+                        width: 100vw;
+                        margin: 4vh 0 0 0;
+                        background-color: $nextgreen;
+                        .blog_section_content {
+                            color: white;
+                        }
+                    }
+                }
+                // CONTACT SECTION
+                #contact_section_id {
+                    .contact_section_class {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 1vh;
+                        height: 100vh;
+                        margin: 4vh 0 0 0;
+                        background-color: $darkblue;
+                        .contact_section_content {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
