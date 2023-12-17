@@ -76,6 +76,7 @@ $skillsteal: #146166;
                             width: 45vw;
                             margin: 4vh 0 0 -45vw;
                             transition: .5s all ease-in-out;
+                            opacity: 0;
                             #name {
                                 color: white;
                                 font-size: 5vw;
@@ -94,6 +95,11 @@ $skillsteal: #146166;
                                     font-family: 'Roboto', sans-serif;
                                 }
                             }
+                        }
+                        // make YOU appear upon scroll up
+                        .you.appear {
+                            opacity: 1;
+                            transition: .5s all ease-in-out;
                         }
                         // hamburger menu button
                         .hamburgermobile {

@@ -55,6 +55,7 @@
     width: 45vw;
     margin: 4vh 0 0 -45vw;
     transition: 0.5s all ease-in-out;
+    opacity: 0;
   }
   * body .container .nav_menu .the_top_nav .you #name {
     color: white;
@@ -73,6 +74,10 @@
     color: white;
     font-size: 3vw;
     font-family: "Roboto", sans-serif;
+  }
+  * body .container .nav_menu .the_top_nav .you.appear {
+    opacity: 1;
+    transition: 0.5s all ease-in-out;
   }
   * body .container .nav_menu .the_top_nav .hamburgermobile .burger {
     display: flex;
