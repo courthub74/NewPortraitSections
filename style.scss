@@ -38,16 +38,10 @@ $skillsteal: #146166;
                     position: sticky;
                     color: white;
                 }
-                // HOME SECTION
+                // HOME SECTION PORTRAIT
                 #home_section_id {
                     .home_section_class {
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: center;
-                        gap: 1vh;
-                        height: 100vh;
-                        margin: 0vh 0 0 0;
+                        height: 90vh;
                         background-color: $darkblue;
                         .home_section_content {
                             display: flex;
@@ -55,6 +49,7 @@ $skillsteal: #146166;
                             justify-content: center;
                             align-items: center;
                             gap: 1vh;
+                            margin: 10vh 0 0 0;
                             #courdevelops_logo {
                                 width: 45vw;
                                 height: 45vw;
@@ -236,10 +231,10 @@ $skillsteal: #146166;
                     position: sticky;
                     color: white;
                 }
-                // HOME SECTION
+                // HOME SECTION LANDSCAPE
                 #home_section_id {
                     .home_section_class {
-                        height: 100vh;
+                        height: 170vh;
                         background-color: $darkblue;
                         .home_section_content {
                             display: flex;
@@ -247,6 +242,7 @@ $skillsteal: #146166;
                             justify-content: center;
                             align-items: center;
                             gap: 1vh;
+                            margin: 30vh 0 0 0;
                             #courdevelops_logo {
                                 width: 25vw;
                                 height: 25vw;
@@ -262,10 +258,10 @@ $skillsteal: #146166;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
-                                font-size: 2vw;
+                                font-size: 2.5vw;
                                 font-family: 'Inter', sans-serif;
                                 color: $darkblue;
-                                width: 50vw;
+                                width: 40vw;
                                 height: 5vw;
                                 background-color: white;
                                 border-radius: 5px;
@@ -278,6 +274,24 @@ $skillsteal: #146166;
                                 color: white;
                                 text-align: center;
                                 margin: 12vh 0 0 0;
+                            }
+                            .learn_more {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 40vw;
+                                height: 4vw;
+                                background-color: $portfolios;
+                                border-radius: 5px;
+                                padding: 3vh 1vh 3vh 1vh;
+                                margin: 10vh 0 0vh 0;
+                                a {
+                                    font-size: 2vw;
+                                    font-family: 'Inter', sans-serif;
+                                    // font-weight: bold;
+                                    color: white;
+                                    text-decoration: none;
+                                }
                             }
                         }
                     }

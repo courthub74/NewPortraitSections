@@ -22,13 +22,7 @@
     color: white;
   }
   * body .container #home_section_id .home_section_class {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1vh;
-    height: 100vh;
-    margin: 0vh 0 0 0;
+    height: 90vh;
     background-color: #080E2F;
   }
   * body .container #home_section_id .home_section_class .home_section_content {
@@ -37,6 +31,7 @@
     justify-content: center;
     align-items: center;
     gap: 1vh;
+    margin: 10vh 0 0 0;
   }
   * body .container #home_section_id .home_section_class .home_section_content #courdevelops_logo {
     width: 45vw;
@@ -192,7 +187,7 @@
     color: white;
   }
   * body .container #home_section_id .home_section_class {
-    height: 100vh;
+    height: 170vh;
     background-color: #080E2F;
   }
   * body .container #home_section_id .home_section_class .home_section_content {
@@ -201,6 +196,7 @@
     justify-content: center;
     align-items: center;
     gap: 1vh;
+    margin: 30vh 0 0 0;
   }
   * body .container #home_section_id .home_section_class .home_section_content #courdevelops_logo {
     width: 25vw;
@@ -217,10 +213,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-family: "Inter", sans-serif;
     color: #080E2F;
-    width: 50vw;
+    width: 40vw;
     height: 5vw;
     background-color: white;
     border-radius: 5px;
@@ -233,6 +229,23 @@
     color: white;
     text-align: center;
     margin: 12vh 0 0 0;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .learn_more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 4vw;
+    background-color: #36395D;
+    border-radius: 5px;
+    padding: 3vh 1vh 3vh 1vh;
+    margin: 10vh 0 0vh 0;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .learn_more a {
+    font-size: 2vw;
+    font-family: "Inter", sans-serif;
+    color: white;
+    text-decoration: none;
   }
   * body .container #about_section_id .about_section_class {
     display: flex;
