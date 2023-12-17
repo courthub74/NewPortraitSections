@@ -64,7 +64,7 @@
     padding: 3vh 1vh 3vh 1vh;
   }
   * body .container #home_section_id .home_section_class .home_section_content .motto {
-    font-size: 5vw;
+    font-size: 4vw;
     font-family: "Inter", sans-serif;
     color: white;
     text-align: center;
@@ -74,15 +74,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60vw;
-    height: 2vw;
+    width: 70vw;
+    height: 1vw;
     background-color: #36395D;
     border-radius: 5px;
     padding: 3vh 1vh 3vh 1vh;
-    margin: 10vh 0 0vh 0;
+    margin: 9vh 0 0vh 0;
   }
   * body .container #home_section_id .home_section_class .home_section_content .learn_more a {
-    font-size: 5vw;
+    font-size: 4vw;
     font-family: "Inter", sans-serif;
     color: white;
     text-decoration: none;
