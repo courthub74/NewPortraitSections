@@ -14,100 +14,38 @@
     gap: 1vh;
     background-color: #080E2F;
   }
-  * body .container .nav_menu {
-    display: flex;
-    gap: 15vw;
-    position: sticky;
-    color: white;
-  }
-  * body .container .nav_menu .courdevs_slide_menu_logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5vh 0 0 8vw;
-  }
-  * body .container .nav_menu .courdevs_slide_menu_logo #courdevs_top_logo {
-    width: 30vw;
-    height: 30vw;
-    opacity: 0;
-  }
-  * body .container .nav_menu .courdevs_slide_menu_logo #courdevs_top_logo.appear {
-    opacity: 1;
-    transition: 0.2s all ease-in;
-  }
   * body .container .nav_menu .the_top_nav {
+    opacity: 1;
+    background-color: #080E2F;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    z-index: 98;
+  }
+  * body .container .nav_menu .the_top_nav .nav_top_contents {
+    display: flex;
+    justify-content: right;
+  }
+  * body .container .nav_menu .the_top_nav .nav_top_contents .main_nav_burger {
+    background-color: #080E2F;
+    border: none;
+    margin: 5vh 10vw 0 0;
+  }
+  * body .container .nav_menu .the_top_nav .nav_top_contents .main_nav_burger #top_hamburger {
+    background-color: #080E2F;
+  }
+  * body .container .nav_menu .the_nav_scroll {
+    opacity: 0;
+    background-color: #080E2F;
+    position: sticky;
+    width: 100%;
+    height: 10vh;
+    z-index: 98;
+  }
+  * body .container .nav_menu .the_nav_scroll .nav_scroll_contents {
     display: flex;
     justify-content: space-between;
-    top: 0;
-    z-index: 98;
-    height: 15vh;
-    transition: 2s all ease-in-out;
-  }
-  * body .container .nav_menu .the_top_nav .you {
-    color: white;
-    font-family: "Inter", sans-serif;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: center;
-    gap: 0.5vh;
-    width: 45vw;
-    margin: 4vh 0 0 -45vw;
-    transition: 0.5s all ease-in-out;
-    opacity: 0;
-  }
-  * body .container .nav_menu .the_top_nav .you #name {
-    color: white;
-    font-size: 5vw;
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    margin: 0 0 0 0;
-  }
-  * body .container .nav_menu .the_top_nav .you .desc_menu_box {
-    background-color: #080E2F;
-    border: 2px solid white;
-    border-radius: 5px;
-    padding: 1vh 4vw 1vh 4vw;
-  }
-  * body .container .nav_menu .the_top_nav .you .desc_menu_box #job_description {
-    color: white;
-    font-size: 3vw;
-    font-family: "Roboto", sans-serif;
-  }
-  * body .container .nav_menu .the_top_nav .you.appear {
-    opacity: 1;
-    transition: 0.5s all ease-in-out;
-  }
-  * body .container .nav_menu .the_top_nav .hamburgermobile .burger {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    background-color: #080E2F;
-    margin: 5.5vh 0vw 0 20vw;
-  }
-  * body .container .nav_menu .the_top_nav .hamburgermobile .burger #top_hamburger {
-    position: relative;
-    width: 12vw;
-    height: 12vw;
-    transition: 1s all ease-in-out;
-  }
-  * body .container .nav_menu .the_top_nav .hamburgermobile .burger #top_hamburger.dissapear {
-    opacity: 0;
-    transition: 0.5s all ease-in-out;
-  }
-  * body .container .nav_menu .the_top_nav .hamburgermobile .burger #hamburger_close {
-    position: absolute;
-    width: 15vw;
-    height: 15vw;
-    opacity: 0;
-  }
-  * body .container .nav_menu .the_top_nav .hamburgermobile .burger #hamburger_close.appear {
-    transition: 0.5s all ease-in;
-    opacity: 1;
-    z-index: 100;
-    background-color: #080E2F;
   }
   * body .container #home_section_id .home_section_class {
     height: 90vh;
@@ -119,7 +57,7 @@
     justify-content: center;
     align-items: center;
     gap: 1vh;
-    margin: 0vh 0 0 0;
+    margin: 8vh 0 0 0;
   }
   * body .container #home_section_id .home_section_class .home_section_content #courdevelops_logo {
     width: 45vw;

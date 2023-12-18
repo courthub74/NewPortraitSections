@@ -32,110 +32,43 @@ $skillsteal: #146166;
             .container {
                 // NAV MENU
                 .nav_menu {
-                    display: flex;
-                    // justify-content: space-between;
-                    gap: 15vw;
-                    position: sticky;
-                    color: white;
-                    .courdevs_slide_menu_logo {
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        margin: 5vh 0 0 8vw;
-                        // background-color: yellowgreen;
-                        #courdevs_top_logo {
-                            width: 30vw;
-                            height: 30vw;
-                            opacity: 0;
-                        }
-                        // for logo appearence
-                        #courdevs_top_logo.appear {
-                            opacity: 1;
-                            transition: .2s all ease-in;
-                        }
-                    }
-                    // the YOU description and HAMBURGER
+                    // The whole navbar section
                     .the_top_nav {
-                        display: flex;
-                        justify-content: space-between;
-                        // margin: 5vh 0 0 0;
+                        // The main nav at the top
+                        opacity: 1;
+                        background-color: $darkblue;
+                        // background-color: #507E81;
+                        position: absolute;
                         top: 0;
+                        width: 100%;
+                        height: 10vh;
                         z-index: 98;
-                        height: 15vh;
-                        transition: 2s all ease-in-out;
-                        // background-color: lightblue;
-                        .you {
-                            color: white;
-                            font-family: 'Inter', sans-serif;
-                            text-align: center;
+                        .nav_top_contents {
                             display: flex;
-                            flex-direction: column;
-                            justify-content: left;
-                            align-items: center;
-                            gap: .5vh;
-                            width: 45vw;
-                            margin: 4vh 0 0 -45vw;
-                            transition: .5s all ease-in-out;
-                            opacity: 0;
-                            #name {
-                                color: white;
-                                font-size: 5vw;
-                                font-family: 'Inter', sans-serif;
-                                font-weight: bold;
-                                margin: 0 0 0 0;
-                            }
-                            .desc_menu_box {
+                            justify-content: right;
+                            .main_nav_burger {
+                                // The Burger Button
                                 background-color: $darkblue;
-                                border: 2px solid white;
-                                border-radius: 5px;
-                                padding: 1vh 4vw 1vh 4vw;
-                                #job_description {
-                                    color: white;
-                                    font-size: 3vw;
-                                    font-family: 'Roboto', sans-serif;
-                                }
-                            }
-                        }
-                        // make YOU appear upon scroll up
-                        .you.appear {
-                            opacity: 1;
-                            transition: .5s all ease-in-out;
-                        }
-                        // hamburger menu button
-                        .hamburgermobile {
-                            // whole burger button
-                            .burger {
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
                                 border: none;
-                                background-color: $darkblue;
-                                margin: 5.5vh 0vw 0 20vw;
+                                margin: 5vh 10vw 0 0;
                                 #top_hamburger {
-                                    position: relative;
-                                    width: 12vw;
-                                    height: 12vw;
-                                    transition: 1s all ease-in-out;
-                                }
-                                // make Menu Burger dissapear (when clicked)
-                                #top_hamburger.dissapear {
-                                    opacity: 0;
-                                    transition: .5s all ease-in-out;
-                                }
-                                // x out menu part
-                                #hamburger_close {
-                                    position: absolute;
-                                    width: 15vw;
-                                    height: 15vw;
-                                    opacity: 0;
-                                }
-                                #hamburger_close.appear {
-                                    transition: .5s all ease-in;
-                                    opacity: 1;
-                                    z-index: 100;
                                     background-color: $darkblue;
                                 }
                             }
+                        }
+                    }
+                    .the_nav_scroll {
+                        opacity: 0;
+                        // background-color: lightpink;
+                        background-color: $darkblue;
+                        position: sticky;
+                        // top: 0;
+                        width: 100%;
+                        height: 10vh;
+                        z-index: 98;
+                        .nav_scroll_contents {
+                            display: flex;
+                            justify-content: space-between;
                         }
                     }
                 }
@@ -150,7 +83,7 @@ $skillsteal: #146166;
                             justify-content: center;
                             align-items: center;
                             gap: 1vh;
-                            margin: 0vh 0 0 0;
+                            margin: 8vh 0 0 0;
                             #courdevelops_logo {
                                 width: 45vw;
                                 height: 45vw;
