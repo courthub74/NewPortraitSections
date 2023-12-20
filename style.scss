@@ -31,28 +31,47 @@ $skillsteal: #146166;
             background-color: $darkblue;
             .container {
                 // NAV BAR
-                .nav_menu {
+                .top_home {
                     // The whole navbar section
+                    position: sticky;
+                    background-color: $darkblue;
+                    top: 0;
+                    width: 100%;
+                    z-index: 98;
+                    height: 15vh;
+                    transition: 2s all ease-in-out;
                     .the_top_nav {
-                        background-color: $darkblue;
-                        top: 0;
-                        width: 100%;
-                        z-index: 98;
-                        height: 15vh;
-                        transition: 2s all ease-in-out;
-                        position: sticky;
+                        
                         .slide_in_menu_logo {
                             // SPACE FOR SLIDE IN MENU lOGO
+                            #courdevs_top_logo {
+                                width: 30vw;
+                                height: 30vw;
+                                margin: 5vh 0 0 6vw;
+                                position: fixed;
+                                opacity: 0;
+                            }
+                            // for slide in menu
+                            #courdevs_top_logo.slide_in {
+                                opacity: 1;
+                                transition: .3s all ease-in;
+                            }
                         }
-                        .nav_scroll_contents {
+                        .the_navbar {
                             display: flex;
                             justify-content: space-between;
+                            // background-color: $darkblue;
+                            // top: 0;
+                            // width: 100%;
+                            // z-index: 98;
+                            // height: 15vh;
+                            // transition: 2s all ease-in-out;
                             .you {
                                 // yous here
                                 display: flex;
                                 flex-direction: column;
                                 align-items: center;
-                                margin: 3.5vh 0 0 6vw;
+                                margin: 3.5vh 0 0 7vw;
                                 #name {
                                     color: white;
                                     font-family: 'Inter', sans-serif;
@@ -69,11 +88,39 @@ $skillsteal: #146166;
                                     padding: .8vh;
                                 }
                             }
-                            .scroll_nav_burger {
+                            // Hamburger Menu
+                            .hamburgermobile {
+                                // Burger Button
                                 background-color: $darkblue;
                                 border: none;
-                                margin: 5.5vh 10vw 0 0;
+                                margin: 2vh 10vw 0 0;
+                                #top_hamburger {
+                                    position: relative;
+                                    width: 11vw;
+                                    height: 11vw;
+                                    transition: 1s all ease-in-out;
+                                }
+                                // make Menu Burger dissapear (when clicked)
+                                #top_hamburger.dissapear {
+                                    opacity: 0;
+                                    transition: .5s all ease-in-out;
+                                }
+                                #hamburger_close {
+                                    position: absolute;
+                                    width: 15vw;
+                                    height: 15vw;
+                                    opacity: 0;
+                                }
+                                #hamburger_close.appear {
+                                    transition: .5s all ease-in;
+                                    opacity: 1;
+                                    z-index: 100;
+                                }
                             }
+                        }
+                        .nav_scroll_contents.dissapear {
+                            opacity: 0;
+                            transition: 1s all ease-out;
                         }
                     }
                 }
@@ -88,7 +135,7 @@ $skillsteal: #146166;
                             justify-content: center;
                             align-items: center;
                             gap: 1vh;
-                            margin: 8vh 0 0 0;
+                            margin: 7vh 0 0 0;
                             #courdevelops_logo {
                                 width: 45vw;
                                 height: 45vw;
