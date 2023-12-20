@@ -30,42 +30,20 @@ $skillsteal: #146166;
             gap: 1vh;
             background-color: $darkblue;
             .container {
-                // NAV MENU
+                // NAV BAR
                 .nav_menu {
                     // The whole navbar section
                     .the_top_nav {
-                        // The main nav at the top
-                        opacity: 1;
                         background-color: $darkblue;
-                        // background-color: #507E81;
-                        position: absolute;
                         top: 0;
                         width: 100%;
-                        height: 10vh;
                         z-index: 98;
-                        .nav_top_contents {
-                            display: flex;
-                            justify-content: right;
-                            .main_nav_burger {
-                                // The Burger Button
-                                background-color: $darkblue;
-                                border: none;
-                                margin: 5vh 10vw 0 0;
-                                #top_hamburger {
-                                    background-color: $darkblue;
-                                }
-                            }
-                        }
-                    }
-                    .the_nav_scroll {
-                        opacity: 0;
-                        // background-color: lightpink;
-                        background-color: $darkblue;
+                        height: 15vh;
+                        transition: 2s all ease-in-out;
                         position: sticky;
-                        // top: 0;
-                        width: 100%;
-                        height: 10vh;
-                        z-index: 98;
+                        .slide_in_menu_logo {
+                            // SPACE FOR SLIDE IN MENU lOGO
+                        }
                         .nav_scroll_contents {
                             display: flex;
                             justify-content: space-between;
@@ -74,7 +52,7 @@ $skillsteal: #146166;
                                 display: flex;
                                 flex-direction: column;
                                 align-items: center;
-                                margin: 3.5vh 0 0 5vw;
+                                margin: 3.5vh 0 0 6vw;
                                 #name {
                                     color: white;
                                     font-family: 'Inter', sans-serif;
@@ -94,12 +72,9 @@ $skillsteal: #146166;
                             .scroll_nav_burger {
                                 background-color: $darkblue;
                                 border: none;
-                                margin: 5vh 10vw 0 0;
+                                margin: 5.5vh 10vw 0 0;
                             }
                         }
-                    }
-                    .the_nav_scroll.scroll_up {
-                        opacity: 1;
                     }
                 }
                 // HOME SECTION PORTRAIT
