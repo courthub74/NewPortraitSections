@@ -15,8 +15,9 @@
     background-color: #080E2F;
   }
   * body .container .nav_menu .the_top_nav {
-    opacity: 1;
+    opacity: 0;
     background-color: #080E2F;
+    background-color: #507E81;
     position: absolute;
     top: 0;
     width: 100%;
@@ -36,7 +37,6 @@
     background-color: #080E2F;
   }
   * body .container .nav_menu .the_nav_scroll {
-    opacity: 0;
     background-color: #080E2F;
     position: sticky;
     width: 100%;
@@ -46,6 +46,21 @@
   * body .container .nav_menu .the_nav_scroll .nav_scroll_contents {
     display: flex;
     justify-content: space-between;
+  }
+  * body .container .nav_menu .the_nav_scroll .nav_scroll_contents .you {
+    display: flex;
+    flex-direction: column;
+  }
+  * body .container .nav_menu .the_nav_scroll .nav_scroll_contents .you #name {
+    color: white;
+  }
+  * body .container .nav_menu .the_nav_scroll .nav_scroll_contents .you #job_description {
+    color: white;
+  }
+  * body .container .nav_menu .the_nav_scroll .nav_scroll_contents .scroll_nav_burger {
+    background-color: #080E2F;
+    border: none;
+    margin: 5vh 10vw 0 0;
   }
   * body .container #home_section_id .home_section_class {
     height: 90vh;
