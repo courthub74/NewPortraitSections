@@ -35,9 +35,9 @@ $skillsteal: #146166;
                     // The whole navbar section
                     .the_top_nav {
                         // The main nav at the top
-                        opacity: 0;
+                        opacity: 1;
                         background-color: $darkblue;
-                        background-color: #507E81;
+                        // background-color: #507E81;
                         position: absolute;
                         top: 0;
                         width: 100%;
@@ -58,7 +58,7 @@ $skillsteal: #146166;
                         }
                     }
                     .the_nav_scroll {
-                        // opacity: 0;
+                        opacity: 0;
                         // background-color: lightpink;
                         background-color: $darkblue;
                         position: sticky;
@@ -73,11 +73,22 @@ $skillsteal: #146166;
                                 // yous here
                                 display: flex;
                                 flex-direction: column;
+                                align-items: center;
+                                margin: 3.5vh 0 0 5vw;
                                 #name {
                                     color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-weight: bold;
+                                    font-size: 5vw;
+                                    margin: 0 0 1vh 1vw;
                                 }
                                 #job_description {
                                     color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    border: 1px solid white;
+                                    border-radius: 5px;
+                                    font-size: 3vw;
+                                    padding: .8vh;
                                 }
                             }
                             .scroll_nav_burger {
@@ -86,6 +97,9 @@ $skillsteal: #146166;
                                 margin: 5vh 10vw 0 0;
                             }
                         }
+                    }
+                    .the_nav_scroll.scroll_up {
+                        opacity: 1;
                     }
                 }
                 // HOME SECTION PORTRAIT

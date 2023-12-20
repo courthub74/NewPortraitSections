@@ -15,9 +15,8 @@
     background-color: #080E2F;
   }
   * body .container .nav_menu .the_top_nav {
-    opacity: 0;
+    opacity: 1;
     background-color: #080E2F;
-    background-color: #507E81;
     position: absolute;
     top: 0;
     width: 100%;
@@ -37,6 +36,7 @@
     background-color: #080E2F;
   }
   * body .container .nav_menu .the_nav_scroll {
+    opacity: 0;
     background-color: #080E2F;
     position: sticky;
     width: 100%;
@@ -50,17 +50,31 @@
   * body .container .nav_menu .the_nav_scroll .nav_scroll_contents .you {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 3.5vh 0 0 5vw;
   }
   * body .container .nav_menu .the_nav_scroll .nav_scroll_contents .you #name {
     color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 5vw;
+    margin: 0 0 1vh 1vw;
   }
   * body .container .nav_menu .the_nav_scroll .nav_scroll_contents .you #job_description {
     color: white;
+    font-family: "Inter", sans-serif;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 3vw;
+    padding: 0.8vh;
   }
   * body .container .nav_menu .the_nav_scroll .nav_scroll_contents .scroll_nav_burger {
     background-color: #080E2F;
     border: none;
     margin: 5vh 10vw 0 0;
+  }
+  * body .container .nav_menu .the_nav_scroll.scroll_up {
+    opacity: 1;
   }
   * body .container #home_section_id .home_section_class {
     height: 90vh;
