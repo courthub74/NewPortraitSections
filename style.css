@@ -37,12 +37,15 @@
   * body .container .top_home .the_top_nav .the_navbar {
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    gap: 20vw;
   }
   * body .container .top_home .the_top_nav .the_navbar .you {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 3.5vh 0 0 7vw;
+    opacity: 0;
   }
   * body .container .top_home .the_top_nav .the_navbar .you #name {
     color: white;
@@ -62,7 +65,7 @@
   * body .container .top_home .the_top_nav .the_navbar .hamburgermobile {
     background-color: #080E2F;
     border: none;
-    margin: 2vh 10vw 0 0;
+    margin: 5vh 0vw 0 5vw;
   }
   * body .container .top_home .the_top_nav .the_navbar .hamburgermobile #top_hamburger {
     position: relative;
