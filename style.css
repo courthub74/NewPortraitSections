@@ -162,7 +162,7 @@
   }
   * body .container #about_section_id .about_section_class {
     gap: 1vh;
-    height: 100vh;
+    height: 105vh;
     width: 100vw;
     background-color: #00313E;
   }
