@@ -144,35 +144,94 @@
     margin: 10vh 0 0 0;
   }
   * body .container #home_section_id .home_section_class .home_section_content .learn_more {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 70vw;
-    height: 1vw;
-    background-color: #36395D;
-    border-radius: 5px;
-    padding: 3vh 1vh 3vh 1vh;
     margin: 9vh 0 0vh 0;
   }
   * body .container #home_section_id .home_section_class .home_section_content .learn_more a {
-    font-size: 4vw;
     font-family: "Inter", sans-serif;
-    color: white;
-    text-decoration: none;
-  }
-  * body .container #about_section_id .about_section_class {
+    font-weight: bold;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
+    text-decoration: none;
+    width: 50vw;
+    height: 0.3vw;
+    background-color: #36395D;
+    border-radius: 5px;
+    padding: 3vh 1vh 3vh 1vh;
+  }
+  * body .container #about_section_id .about_section_class {
     gap: 1vh;
     height: 100vh;
     width: 100vw;
-    margin: 4vh 0 0 0;
     background-color: #00313E;
   }
   * body .container #about_section_id .about_section_class .about_section_content {
     color: white;
+    margin: 0 0 0 5vw;
+    padding: 5vh 0 0 0;
+    width: 70%;
+  }
+  * body .container #about_section_id .about_section_class .about_section_content .section_title {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 8vw;
+    font-weight: bold;
+  }
+  * body .container #about_section_id .about_section_class .about_section_content .first_para_about {
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin: 3vh 0 0 0;
+  }
+  * body .container #about_section_id .about_section_class .about_section_content .brand_name_about {
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin: 2vh 0 0 0;
+  }
+  * body .container #about_section_id .about_section_class .about_section_content #about_page_logo {
+    margin: 5vh 0 0 0;
+    width: 30vw;
+    height: 30vw;
+  }
+  * body .container #about_section_id .about_section_class .about_section_content .passion_block {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    margin: 3vh 0 0 0;
+    border-bottom: 2px solid #146166;
+    width: 85%;
+  }
+  * body .container #about_section_id .about_section_class .about_section_content .user_interface {
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin: 2vh 0 0 0;
+  }
+  * body .container #about_section_id .about_section_class .about_section_content .gig_econ {
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin: 2vh 0 0 0;
+  }
+  * body .container #about_section_id .about_section_class .about_section_content .web_3 {
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin: 2vh 0 0 0;
+  }
+  * body .container #about_section_id .about_section_class .about_section_content .resume_button_div {
+    margin: 3vh 0 0 0vw;
+  }
+  * body .container #about_section_id .about_section_class .about_section_content .resume_button_div #dload_resume {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #507E81;
+    background-color: #146166;
+    border-radius: 5px;
+    width: 50vw;
+    height: 13vw;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   * body .container #portfolio_section_id .portfolio_section_class {
     display: flex;

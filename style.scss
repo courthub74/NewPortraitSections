@@ -180,21 +180,27 @@ $skillsteal: #146166;
                                 margin: 10vh 0 0 0;
                             }
                             .learn_more {
+                                // width: 50vw;
+                                // height: 1vw;
+                                // background-color: $portfolios;
+                                // border-radius: 5px;
+                                // padding: 3vh 1vh 3vh 1vh;
+                                margin: 9vh 0 0vh 0;
+                            a {
+                                // font-size: 4vw;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
-                                width: 70vw;
-                                height: 1vw;
-                                background-color: $portfolios;
-                                border-radius: 5px;
-                                padding: 3vh 1vh 3vh 1vh;
-                                margin: 9vh 0 0vh 0;
-                            a {
-                                font-size: 4vw;
-                                font-family: 'Inter', sans-serif;
                                 // font-weight: bold;
                                 color: white;
                                 text-decoration: none;
+                                width: 50vw;
+                                height: .3vw;
+                                background-color: $portfolios;
+                                border-radius: 5px;
+                                padding: 3vh 1vh 3vh 1vh;
                             }
                         }
                         }
@@ -203,17 +209,81 @@ $skillsteal: #146166;
                 // ABOUT SECTION
                 #about_section_id {
                     .about_section_class {
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: center;
+                        // display: flex;
+                        // flex-direction: column;
+                        // justify-content: center;
+                        // align-items: center;
                         gap: 1vh;
                         height: 100vh;
                         width: 100vw;
-                        margin: 4vh 0 0 0;
+                        // margin: 4vh 0 0 0;
                         background-color: $nextgreen;
                         .about_section_content {
                             color: white;
+                            margin: 0 0 0 5vw;
+                            padding: 5vh 0 0 0;
+                            width: 70%;
+                            .section_title {
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-size: 8vw;
+                                font-weight: bold;
+                            }
+                            .first_para_about {
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                margin: 3vh 0 0 0;
+                            }
+                            .brand_name_about {
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                margin: 2vh 0 0 0;
+                            }
+                            #about_page_logo {
+                                margin: 5vh 0 0 0;
+                                width: 30vw;
+                                height: 30vw;
+                            }
+                            .passion_block {
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                                margin: 3vh 0 0 0;
+                                border-bottom: 2px solid $skillsteal;
+                                width: 85%;
+                            }
+                            .user_interface {
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                margin: 2vh 0 0 0;
+                            }
+                            .gig_econ {
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                margin: 2vh 0 0 0;
+                            }
+                            .web_3 {
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                margin: 2vh 0 0 0;
+                            }
+                            .resume_button_div {
+                                margin: 3vh 0 0 0vw;
+                                #dload_resume {
+                                    font-family: 'Inter', sans-serif;
+                                    font-weight: bold;
+                                    color: white;
+                                    background-color: $resumebutton;
+                                    background-color: $skillsteal;
+                                    border-radius: 5px;
+                                    width: 50vw;
+                                    height: 13vw;
+                                    text-decoration: none;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                            }
                         }
                     }
                 }
