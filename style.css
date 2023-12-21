@@ -21,7 +21,7 @@
     width: 100%;
     z-index: 98;
     height: 15vh;
-    transition: 2s all ease-in-out;
+    transition: 0.6s all ease-in-out;
   }
   * body .container .top_home .the_top_nav .slide_in_menu_logo #courdevs_top_logo {
     width: 30vw;
@@ -91,6 +91,9 @@
   * body .container .top_home .the_top_nav .nav_scroll_contents.dissapear {
     opacity: 0;
     transition: 1s all ease-out;
+  }
+  * body .container .top_home.dissapear {
+    opacity: 0;
   }
   * body .container #home_section_id .home_section_class {
     height: 90vh;

@@ -39,7 +39,7 @@ $skillsteal: #146166;
                     width: 100%;
                     z-index: 98;
                     height: 15vh;
-                    transition: 2s all ease-in-out;
+                    transition: .6s all ease-in-out;
                     .the_top_nav {
                         // display: flex;
                         // justify-content: space-between;
@@ -127,6 +127,9 @@ $skillsteal: #146166;
                             transition: 1s all ease-out;
                         }
                     }
+                }
+                .top_home.dissapear {
+                    opacity: 0;
                 }
                 // HOME SECTION PORTRAIT
                 #home_section_id {

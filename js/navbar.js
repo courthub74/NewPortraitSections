@@ -13,6 +13,9 @@
 // query the main nav bar
 let main_nav = document.querySelector('.the_navbar');
 
+// query the top of the page that is sticky (.top_home)
+let top_home = document.querySelector('.top_home');
+
 // set a last scroll
 let lastScroll = 0;
 
@@ -27,6 +30,13 @@ window.addEventListener('scroll', function () {
         // then compare to greater than zero
         // SO if it's anywhere below the top
     if (currentScroll - lastScroll > 0) {
-        main_nav.classList.add('dissapear');
+        top_home.classList.add('dissapear');
+    } else {
+        // Make the top_home reappear
+        if (currentScroll - lastScroll == 0) {
+            top_home.classList.remove('dissapear');
+        }
     }
+    // set the current scroll to the last scroll
+    currentScroll = lastScroll;
 });
