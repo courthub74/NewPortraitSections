@@ -46,6 +46,7 @@
     align-items: center;
     margin: 3.5vh 0 0 7vw;
     opacity: 0;
+    transition: 0.3s all ease-out;
   }
   * body .container .top_home .the_top_nav .the_navbar .you #name {
     color: white;
@@ -61,6 +62,9 @@
     border-radius: 5px;
     font-size: 3vw;
     padding: 0.8vh;
+  }
+  * body .container .top_home .the_top_nav .the_navbar .you.appear {
+    opacity: 1;
   }
   * body .container .top_home .the_top_nav .the_navbar .hamburgermobile {
     background-color: #080E2F;

@@ -10,11 +10,15 @@
 
 // query the floating nav bar
 // let floating_nav = document.querySelector('.the_nav_scroll');
+
 // query the main nav bar
-let main_nav = document.querySelector('.the_navbar');
+// let main_nav = document.querySelector('.the_navbar');
 
 // query the top of the page that is sticky (.top_home)
 let top_home = document.querySelector('.top_home');
+
+// query the 'you' section
+let you_section = document.querySelector('.you');
 
 // set a last scroll
 let lastScroll = 0;
@@ -31,12 +35,17 @@ window.addEventListener('scroll', function () {
         // SO if it's anywhere below the top
     if (currentScroll - lastScroll > 0) {
         top_home.classList.add('dissapear');
+        console.log("You are scrolling down");
     } else {
-        // Make the top_home reappear
-        if (currentScroll - lastScroll == 0) {
-            top_home.classList.remove('dissapear');
+        // scrolled up -- you show
+        top_home.classList.remove('dissapear');
+        you_section.classList.add('appear');
+        console.log("You are scrolling up");
+        // Make the you dissapear at top of screen
+        if (currentScroll === 0) {
+            you_section.classList.remove('appear');
         }
     }
     // set the current scroll to the last scroll
-    currentScroll = lastScroll;
+    lastScroll = currentScroll;
 });

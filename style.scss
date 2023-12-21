@@ -76,6 +76,7 @@ $skillsteal: #146166;
                                 align-items: center;
                                 margin: 3.5vh 0 0 7vw;
                                 opacity: 0;
+                                transition: .3s all ease-out;
                                 #name {
                                     color: white;
                                     font-family: 'Inter', sans-serif;
@@ -91,6 +92,9 @@ $skillsteal: #146166;
                                     font-size: 3vw;
                                     padding: .8vh;
                                 }
+                            }
+                            .you.appear {
+                                opacity: 1;
                             }
                             // Hamburger Menu
                             .hamburgermobile {
