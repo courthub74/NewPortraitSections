@@ -298,6 +298,11 @@
     padding: 5vh 0 0 2vw;
     width: 70%;
   }
+  * body .container #skills_section_id .skills_section_class .skills_section_content .skills_title {
+    font-family: "Inter", sans-serif;
+    font-size: 8vw;
+    font-weight: bold;
+  }
   * body .container #experience_section_id .experience_section_class {
     display: flex;
     flex-direction: column;

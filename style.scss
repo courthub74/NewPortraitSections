@@ -370,6 +370,11 @@ $skillsteal: #146166;
                             margin: 0 0 0 5vw;
                             padding: 5vh 0 0 2vw;
                             width: 70%;
+                            .skills_title {
+                                font-family: 'Inter', sans-serif;
+                                font-size: 8vw;
+                                font-weight: bold;
+                            }
                         }
                     }
                 }
