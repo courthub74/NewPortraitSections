@@ -356,17 +356,20 @@ $skillsteal: #146166;
                 // SKILLS SECTION
                 #skills_section_id {
                     .skills_section_class {
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: center;
-                        gap: 1vh;
-                        height: 100vh;
+                        // display: flex;
+                        // flex-direction: column;
+                        // justify-content: center;
+                        // align-items: center;
+                        // gap: 1vh;
+                        height: 105vh;
                         width: 100vw;
-                        margin: 4vh 0 0 0;
+                        // margin: 4vh 0 0 0;
                         background-color: $nextgreen;
                         .skills_section_content {
                             color: white;
+                            margin: 0 0 0 5vw;
+                            padding: 5vh 0 0 2vw;
+                            width: 70%;
                         }
                     }
                 }
