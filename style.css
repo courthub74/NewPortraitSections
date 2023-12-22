@@ -161,7 +161,6 @@
     padding: 3vh 1vh 3vh 1vh;
   }
   * body .container #about_section_id .about_section_class {
-    gap: 1vh;
     height: 105vh;
     width: 100vw;
     background-color: #00313E;
@@ -234,33 +233,60 @@
     align-items: center;
   }
   * body .container #portfolio_section_id .portfolio_section_class {
-    height: 110vh;
+    height: 100vh;
+    width: 100vw;
     background-color: #080E2F;
   }
   * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content {
     display: flex;
     flex-direction: column;
     color: white;
+    margin: 0 0 0 5vw;
+    padding: 5vh 0 0 2.5vw;
+    width: 100%;
   }
   * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_title {
-    padding: 5vh 0 0 0;
     font-family: "Inter", sans-serif;
     font-size: 8vw;
     font-weight: bold;
   }
   * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares {
-    margin: 6vh 0 0 0;
+    margin: 6vh 15vw 0 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3vh;
+    gap: 5vh;
   }
   * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square {
     background-color: #36395D;
     border: none;
-    width: 80%;
-    height: 10vh;
+    width: 85vw;
+    height: 15vh;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #skill_project {
+    width: 65vw;
+    margin: 0 1vw 0 0;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #create_collab {
+    margin: 0 0 0 10vw;
+    width: 66vw;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #msy {
+    width: 65vw;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #workflow_app {
+    width: 64vw;
   }
   * body .container #skills_section_id .skills_section_class {
     display: flex;

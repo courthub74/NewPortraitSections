@@ -213,7 +213,7 @@ $skillsteal: #146166;
                         // flex-direction: column;
                         // justify-content: center;
                         // align-items: center;
-                        gap: 1vh;
+                        // gap: 1vh;
                         height: 105vh;
                         width: 100vw;
                         // margin: 4vh 0 0 0;
@@ -295,31 +295,59 @@ $skillsteal: #146166;
                         // justify-content: center;
                         // align-items: center;
                         // gap: 1vh;
-                        height: 110vh;
+                        height: 100vh;
+                        width: 100vw;
                         // margin: 4vh 0 0 0;
                         background-color: $darkblue;
                         .portfolio_section_content {
                             display: flex;
                             flex-direction: column;
                             color: white;
+                            margin: 0 0 0 5vw;
+                            padding: 5vh 0 0 2.5vw;
+                            width: 100%;
                             .portfolio_title {
-                                padding: 5vh 0 0 0;
+                                // padding: 5vh 0 0 2vw;
                                 font-family: 'Inter', sans-serif;
                                 font-size: 8vw;
                                 font-weight: bold;
                             }
                             .portfolio_squares {
-                                margin: 6vh 0 0 0;
+                                margin: 6vh 15vw 0 0;
                                 display: flex;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
-                                gap: 3vh;
+                                gap: 5vh;
                                 .portfolio_square {
                                     background-color: $portfolios;
                                     border: none;
-                                    width: 80%;
-                                    height: 10vh;
+                                    width: 85vw;
+                                    height: 15vh;
+                                    border-radius: 5px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    .app {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        #skill_project {
+                                            width: 65vw;
+                                            margin: 0 1vw 0 0;
+                                        }
+                                        #create_collab {
+                                            margin: 0 0 0 10vw;
+                                            width: 66vw;
+                                        }
+                                        #msy {
+                                            width: 65vw;
+                                        }
+                                        #workflow_app {
+                                            width: 64vw;
+                                        }
+                                    }
                                 }
                             }
                         }
