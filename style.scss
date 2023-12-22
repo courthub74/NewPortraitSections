@@ -290,16 +290,38 @@ $skillsteal: #146166;
                 // PORTFOLIO SECTION
                 #portfolio_section_id {
                     .portfolio_section_class {
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: center;
-                        gap: 1vh;
-                        height: 100vh;
-                        margin: 4vh 0 0 0;
+                        // display: flex;
+                        // flex-direction: column;
+                        // justify-content: center;
+                        // align-items: center;
+                        // gap: 1vh;
+                        height: 110vh;
+                        // margin: 4vh 0 0 0;
                         background-color: $darkblue;
                         .portfolio_section_content {
+                            display: flex;
+                            flex-direction: column;
                             color: white;
+                            .portfolio_title {
+                                padding: 5vh 0 0 0;
+                                font-family: 'Inter', sans-serif;
+                                font-size: 8vw;
+                                font-weight: bold;
+                            }
+                            .portfolio_squares {
+                                margin: 6vh 0 0 0;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 3vh;
+                                .portfolio_square {
+                                    background-color: $portfolios;
+                                    border: none;
+                                    width: 80%;
+                                    height: 10vh;
+                                }
+                            }
                         }
                     }
                 }

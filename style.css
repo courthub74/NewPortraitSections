@@ -234,17 +234,33 @@
     align-items: center;
   }
   * body .container #portfolio_section_id .portfolio_section_class {
+    height: 110vh;
+    background-color: #080E2F;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_title {
+    padding: 5vh 0 0 0;
+    font-family: "Inter", sans-serif;
+    font-size: 8vw;
+    font-weight: bold;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares {
+    margin: 6vh 0 0 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1vh;
-    height: 100vh;
-    margin: 4vh 0 0 0;
-    background-color: #080E2F;
+    gap: 3vh;
   }
-  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content {
-    color: white;
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square {
+    background-color: #36395D;
+    border: none;
+    width: 80%;
+    height: 10vh;
   }
   * body .container #skills_section_id .skills_section_class {
     display: flex;
