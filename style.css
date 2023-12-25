@@ -303,6 +303,49 @@
     font-size: 8vw;
     font-weight: bold;
   }
+  * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4vh 0 0 6vh;
+    gap: 3vw;
+  }
+  * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 0 1vh 0;
+  }
+  * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back {
+    width: 25vw;
+    height: 25vw;
+    border: 3px solid #080E2F;
+    background-color: #00313E;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.521);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front {
+    width: 23vw;
+    height: 23vw;
+    border: none;
+    background-color: #080E2F;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   * body .container #experience_section_id .experience_section_class {
     display: flex;
     flex-direction: column;
