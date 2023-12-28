@@ -161,7 +161,7 @@
     padding: 3vh 1vh 3vh 1vh;
   }
   * body .container #about_section_id .about_section_class {
-    height: 105vh;
+    height: 135vh;
     width: 100vw;
     background-color: #00313E;
   }
@@ -350,8 +350,18 @@
     width: 15vw;
     height: 15vw;
   }
+  * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front #html {
+    transition: 0.7s all ease-in;
+    position: absolute;
+  }
+  * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front #html.dissapear {
+    opacity: 0;
+  }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front #html_description {
-    color: white;
+    opacity: 0;
+  }
+  * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front #html_description.show {
+    transition: 0.5s all ease-in;
   }
   * body .container #experience_section_id .experience_section_class {
     display: flex;
