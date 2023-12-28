@@ -346,6 +346,13 @@
     justify-content: center;
     align-items: center;
   }
+  * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front .shield {
+    width: 15vw;
+    height: 15vw;
+  }
+  * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front #html_description {
+    color: white;
+  }
   * body .container #experience_section_id .experience_section_class {
     display: flex;
     flex-direction: column;

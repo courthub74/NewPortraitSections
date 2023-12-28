@@ -363,7 +363,7 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                         // justify-content: center;
                         // align-items: center;
                         // gap: 1vh;
-                        height: 105vh;
+                        height: 115vh;
                         width: 100vw;
                         // margin: 4vh 0 0 0;
                         background-color: $nextgreen;
@@ -419,6 +419,24 @@ $boxshadowcircles: rgba(0, 0, 0, 0.521);
                                                 flex-direction: column;
                                                 justify-content: center;
                                                 align-items: center;
+                                                .shield {
+                                                    width: 15vw;
+                                                    height: 15vw;
+                                                }
+                                                // HTML
+                                                #html {
+                                                    transition: .7s all ease-in;
+                                                    position: absolute;
+                                                }
+                                                #html.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #html_description {
+                                                    opacity: 0;
+                                                }
+                                                #html_description.show {
+                                                    transition: .5s all ease-in;
+                                                }
                                             }
                                         }
                                     }
